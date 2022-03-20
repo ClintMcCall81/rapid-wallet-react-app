@@ -4,9 +4,9 @@
     "slug": "rapid-wallet-react-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/exportIcons/appIcon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/exportIcons/splashScreen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/exportIcons/appIcon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.clintmccall81.rapidwalletreactapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/exportIcons/appIcon.png"
     }
   }
 }
