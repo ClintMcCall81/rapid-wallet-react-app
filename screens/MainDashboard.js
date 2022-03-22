@@ -50,8 +50,8 @@ const MainDashboard = () => {
             <View style={styles.topIconContainer}>
 
               {/* Back Button */}
-              <TouchableOpacity onPress={() => navigation.navigate("LoginDetails")} style={styles.iconBack}>
-                <Icon name="go-back-left-arrow" color={'#5AAE57'}/>
+              <TouchableOpacity onPress={() => {}} style={styles.iconBack}>
+                <Icon name="go-back-left-arrow" color={'#FFFFFF'}/>
 
               </TouchableOpacity>
 
@@ -203,7 +203,7 @@ const MainDashboard = () => {
             </TouchableOpacity>
 
             {/* Settings */}
-            <TouchableOpacity onPress={() => {}} style={styles.iconBehave}>
+            <TouchableOpacity onPress={() => navigation.navigate("Settings")} style={styles.iconBehave}>
                 <Icon name="settings-cogwheel-button" height={iconHeight} width={iconWidth} color={'#5AAE57'}/>
             </TouchableOpacity>
 

@@ -24,6 +24,7 @@ import SendCrypto       from     './screens/SendCrypto';
 import BuyCrypto        from     './screens/BuyCrypto';
 import SendConfirmation from     './screens/SendConfirmation';
 import BuyConfirmation  from     './screens/BuyConfirmation';
+import Settings         from     './screens/Settings';
 
 // Setup and Functionality
 const Stack = createNativeStackNavigator();
@@ -66,6 +67,7 @@ export default function App() {
         <Stack.Screen options={{headerShown: false}} name="BuyCrypto"             component={BuyCrypto} />
         <Stack.Screen options={{headerShown: false}} name="SendConfirmation"      component={SendConfirmation} />
         <Stack.Screen options={{headerShown: false}} name="BuyConfirmation"       component={BuyConfirmation} />
+        <Stack.Screen options={{headerShown: false}} name="Settings"              component={Settings} />
 
       </Stack.Navigator>
 
