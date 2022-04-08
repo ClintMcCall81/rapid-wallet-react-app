@@ -4,27 +4,23 @@ import { StyleSheet, Text, View }        from 'react-native';
 import { useFonts }                      from '@expo-google-fonts/inter';
 import 'react-native-gesture-handler';
 
-// Imported API Calls
-import { getMarketData } from './services/cryptoService';
-
-
 // React Navigator Import
 import { NavigationContainer }          from '@react-navigation/native';
 import { createNativeStackNavigator }   from '@react-navigation/native-stack';
 
 // Screens for React Navigator
-import LoginScreen      from     './screens/LoginScreen';
-import WalletCreation   from     './screens/WalletCreation';
-import WalletPhrases    from     './screens/WalletPhrases';
-import Password         from     './screens/Password';
-import MainDashboard    from     './screens/MainDashboard';
-import LoginDetails     from     './screens/LoginDetails';
-import Portfolio        from     './screens/Portfolio';
-import SendCrypto       from     './screens/SendCrypto';
-import BuyCrypto        from     './screens/BuyCrypto';
-import SendConfirmation from     './screens/SendConfirmation';
-import BuyConfirmation  from     './screens/BuyConfirmation';
-import Settings         from     './screens/Settings';
+import WalletCreation      from     './screens/WalletCreation';
+import LoginScreen         from     './screens/LoginScreen';
+import WalletPhrases       from     './screens/WalletPhrases';
+import Password            from     './screens/Password';
+import MainDashboard       from     './screens/MainDashboard';
+import LoginDetails        from     './screens/LoginDetails';
+import Portfolio           from     './screens/Portfolio';
+import SendCrypto          from     './screens/SendCrypto';
+import BuyCrypto           from     './screens/BuyCrypto';
+import SendConfirmation    from     './screens/SendConfirmation';
+import BuyConfirmation     from     './screens/BuyConfirmation';
+import Settings            from     './screens/Settings';
 
 // Setup and Functionality
 const Stack = createNativeStackNavigator();
