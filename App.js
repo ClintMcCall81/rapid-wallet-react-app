@@ -1,7 +1,7 @@
 // Imported Packages and Libraries
-import React, { useEffect, useState }    from 'react';
-import { StyleSheet, Text, View }        from 'react-native';
-import { useFonts }                      from '@expo-google-fonts/inter';
+import React, { useEffect, useState }   from 'react';
+import { StyleSheet, Text, View }       from 'react-native';
+import { useFonts }                     from '@expo-google-fonts/inter';
 import 'react-native-gesture-handler';
 
 // React Navigator Import

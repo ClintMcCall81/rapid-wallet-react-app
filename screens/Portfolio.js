@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, KeyboardAvoidingView, TextInput, TouchableOpaci
 import { useNavigation } from '@react-navigation/native';
 import ListItem from '../components/ListItem';
 import { getMarketData } from '../services/cryptoService';
+import { walletFormat } from './MainDashboard';
 
 // Crypto Data
 import {SAMPLE_DATA} from '../assets/data/sampleData';
@@ -17,7 +18,6 @@ export default function Portfolio() {
     // Global Variables
     var iconHeight = 16;
     var iconWidth  = 16;
-    var walletBalance = 45021517;
 
     // Screen Navigation
     const navigation = useNavigation();
@@ -48,7 +48,7 @@ export default function Portfolio() {
 
             <View style={styles.headerContainer}>
                 <Text style={styles.headerText}>Monthly Portfolio Balance</Text>
-                <Text style={styles.cardBalance}>${walletBalance.toLocaleString('en-US', {currency: 'USD'})}</Text>
+                <Text style={styles.cardBalance}>{walletFormat}</Text>
             </View>
 
             <View style={styles.chartContainer}>
